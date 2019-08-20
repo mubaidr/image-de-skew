@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Image De-Skew</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      type="text/css"
+      rel="stylesheet"
+      href="https://unpkg.com/bulma-pro/css/bulma.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <style>
+      img {
+        width: 100%;
+      }
+    </style>
+  </head>
+
+  <body>
+    <section class="hero is-success is-medium">
+      <div class="hero-body">
+        <div class="container">
+          <h1 class="title is-1">
+            Image de-skew
+          </h1>
+          <h2 class="subtitle is-3">
+            Detect & fix image skew.
+          </h2>
+
+          <div class="block">
+            <a
+              class="button is-primary"
+              href="https://github.com/mubaidr/image-de-skew"
+              target="_blank"
+            >
+              <i class="material-icons">
+                code
+              </i>
+              <span>&nbsp;Github</span>
+            </a>
+            <a
+              class="button is-primary"
+              href="https://www.npmjs.com/package/image-de-skew"
+              target="_blank"
+            >
+              <i class="material-icons">
+                cloud_download
+              </i>
+              <span>&nbsp;npm</span>
+            </a>
+            <a
+              class="button is-primary"
+              href="https://unpkg.com/image-de-skew/dist/image-de-skew.min.js"
+              target="_blank"
+            >
+              <i class="material-icons">
+                save
+              </i>
+              <span>&nbsp; Download</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <br />
+    <section class="section">
+      <div class="container">
+        <h1 class="title is-3">Samples</h1>
+        <h2 class="subtitle is-4">Try these built in samples:</h2>
+
+        <div class="columns">
+          <div class="column">
+            <div class="card">
+              <div class="card-content">
+                <div class="media">
+                  <div class="media-content">
+                    <p class="title is-4">Skewed Image</p>
+                  </div>
+                </div>
+                <div class="content">
+                  <button
+                    class="button is-primary is-fullwidth"
+                    data-type="ean-8"
+                  >
+                    Check
+                  </button>
+                </div>
+              </div>
+              <div class="card-image">
+                <figure class="image is-4by3">
+                  <img src="./10023_skew.jpg" id="image_skew" />
+                </figure>
+              </div>
+            </div>
+          </div>
+          <div class="column">
+            <div class="card">
+              <div class="card-content">
+                <div class="media">
+                  <div class="media-content">
+                    <p class="title is-4">Normal Image</p>
+                  </div>
+                </div>
+                <div class="content">
+                  <button
+                    class="button is-primary is-fullwidth"
+                    data-type="ean-13"
+                  >
+                    Check
+                  </button>
+                </div>
+              </div>
+              <div class="card-image">
+                <figure class="image is-4by3">
+                  <img src="./10023_no_skew.jpg" id="image_no_skew" />
+                </figure>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <h2 class="title is-3">Ready to start?</h2>
+        <a
+          class="button is-large is-info"
+          href="https://github.com/mubaidr/image-de-skew#install"
+          >Get Started Now
+        </a>
+      </div>
+    </section>
+
+    <div class="container">
+      <footer class="footer">
+        <div class="content has-text-centered">
+          <p>
+            <strong>Image De-Skew </strong> by
+            <a href="http://mubaidr.github.com" target="_blank">
+              Muhammad Ubaid Raza
+            </a>
+            .
+            <br />
+            The source code is licensed under
+            <a
+              href="http://opensource.org/licenses/mit-license.php"
+              target="_blank"
+              >MIT </a
+            >.
+          </p>
+        </div>
+      </footer>
+    </div>
+
+    <script type="text/javascript" src="./image-de-skew.min.js"></script>
+    <script type="text/javascript" src="./demo.js"></script>
+  </body>
+</html>
